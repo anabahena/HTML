@@ -3,23 +3,36 @@ Online HTML, CSS and JavaScript editor to run code online.
 -->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Browser</title>
-</head>
-
-<body>
-  <h1>
-    Write, edit and run HTML, CSS and JavaScript code online.
-  </h1>
-  <a target="_blank" href="https://modeloramanowtest.onelink.me/jGaU/t7mimg8m/faqs">Faqs</a>
-  <a target="_blank" href="https://modeloramanowtest.onelink.me/jGaU/t7mimg8m">Hola 1</a>
-  <a target="_blank" href="https://stgn-onelink.tadadelivery.com.mx/jGaU/oijovc3e">Hola 2</a>
-  <a target="_blank" href="faqs">Hola 2</a>
-  <script src="script.js"></script>
-</body>
-
+  <body>
+    <h1>Write, edit and run HTML, CSS and JavaScript code online.</h1>
+    <a
+      target="_blank"
+      href="https://modeloramanowtest.onelink.me/jGaU/t7mimg8m/faqs"
+      >Faqs</a
+    >
+    <a target="_blank" href="https://modeloramanowtest.onelink.me/jGaU/t7mimg8m"
+      >Hola 1</a
+    >
+    <a
+      target="_blank"
+      href="https://stgn-onelink.tadadelivery.com.mx/jGaU/oijovc3e"
+      >Hola 2</a
+    >
+    <a target="_blank" href="faqs">Hola 2</a>
+    <button
+      onclick="if(window.ReactNativeWebView) { // ensure window.ReactNativeWebView is there, otherwise, web app might crash if is not there
+    window.ReactNativeWebView.postMessage('Wayne is coming again')
+  }"
+    >
+      Holaaaa
+    </button>
+    <script src="script.js"></script>
+  </body>
 </html>
